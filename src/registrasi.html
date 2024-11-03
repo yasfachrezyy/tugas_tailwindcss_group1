@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | Aegis Coffee</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .form-bg {
+      background-image: url('https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="bg-black">
+  <div class="flex items-center justify-center h-screen">
+    <div class="form-bg bg-opacity-75 bg-black p-8 rounded-lg shadow-md w-96">
+      <img src="logo_aegis_white.png" alt="Logo Aegis" class="h-16 mx-auto mb-6">
+      <h2 class="text-2xl font-bold mb-6 text-center text-white">Register at Aegis Coffee</h2>
+      <form>
+        <div class="mb-4">
+          <label class="block text-white text-sm mb-2" for="name">Name</label>
+          <input type="text" id="name" class="w-full p-3 border rounded-lg" placeholder="Your name" />
+        </div>
+        <div class="mb-4">
+          <label class="block text-white text-sm mb-2" for="email">Email</label>
+          <input type="email" id="email" class="w-full p-3 border rounded-lg" placeholder="you@example.com" />
+        </div>
+        <div class="mb-6">
+          <label class="block text-white text-sm mb-2" for="password">Password</label>
+          <input type="password" id="password" class="w-full p-3 border rounded-lg" placeholder="Your password" />
+        </div>
+        <button type="submit" class="w-full bg-yellow-800 text-white py-3 rounded-lg">Register</button>
+      </form>
+      <p class="mt-6 text-center text-sm text-gray-300">
+        Already have an account? <a href="login.html" class="text-brown-500">Login</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
