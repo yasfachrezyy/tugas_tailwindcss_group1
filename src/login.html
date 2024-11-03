@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Aegis Coffee</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .form-bg {
+      background-image: url('https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="bg-black">
+  <div class="flex items-center justify-center h-screen">
+    <div class="form-bg bg-opacity-75 bg-black p-8 rounded-lg shadow-md w-96">
+      <img src="../img/logo_aegis_white.png" alt="Logo Aegis" class="h-16 mx-auto mb-6">
+      <h2 class="text-2xl font-bold mb-6 text-center text-white">Login to Aegis Coffee</h2>
+      <form>
+        <div class="mb-4">
+          <label class="block text-white text-sm mb-2" for="username">Username</label>
+          <input type="username" id="username" class="w-full p-3 border rounded-lg" placeholder="Your username" />
+        </div>
+        <div class="mb-6">
+          <label class="block text-white text-sm mb-2" for="password">Password</label>
+          <input type="password" id="password" class="w-full p-3 border rounded-lg" placeholder="Your password" />
+        </div>
+        <button type="submit" class="w-full bg-yellow-800 hover:bg-yellow-500 text-white py-3 rounded-lg transition duration-200">Login</button>
+      </form>
+      <p class="mt-6 text-center text-sm text-gray-300">
+        Don't have an account? <a href="registrasi.html" class="text-yellow-500 hover:text-yellow-400 font-semibold">Register</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
